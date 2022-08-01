@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:rotationX="2"
+    android:visibility="visible">
+
+    <ImageView
+        android:id="@+id/demoImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/img" />
+
+    <EditText
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="路路通司机版" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:hint="    请输入手机号"
+        android:textColor="@color/black"
+        android:background="@color/grey"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp"
+        android:gravity=""/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:hint="    请输入密码"
+        android:background="@color/grey"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:gravity=""/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/yellow"
+        android:layout_gravity="center"
+        android:text="同意协议并注册/登录"/>
+
+
+</LinearLayout>
